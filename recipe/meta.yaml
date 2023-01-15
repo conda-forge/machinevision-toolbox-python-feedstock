@@ -1,5 +1,5 @@
 {% set name = "machinevision-toolbox-python" %}
-{% set version = "0.9.3" %}
+{% set version = "0.9.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/machinevision-toolbox-python-{{ version }}.tar.gz
-    sha256: ef17b8c734baa2158d761659402beecbe4f1d687b9223af9e577fc3d9d820c1f
+    sha256: 2c5148c86c222e320b4ce775bd668b0e51246243f5c45a72251cc89893420f6a
 
 build:
   noarch: python
