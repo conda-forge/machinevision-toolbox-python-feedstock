@@ -28,6 +28,7 @@ requirements:
     - pgraph-python
     - ansitable
     - mvtb-data
+    - arm_pyart
 
 test:
   imports:
