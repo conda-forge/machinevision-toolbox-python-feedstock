@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
-    - numpy
+    - numpy <2
     - scipy
     - matplotlib-base
     - py-opencv
