@@ -31,6 +31,7 @@ requirements:
     - ansitable
     - mvtb-data
     - arm_pyart
+    - open3d
 
 test:
   requires:
