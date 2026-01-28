@@ -23,7 +23,7 @@ requirements:
     - hatchling
   run:
     - python >={{ python_min }}
-    - numpy <2
+    - numpy
     - scipy
     - matplotlib-base
     - py-opencv
