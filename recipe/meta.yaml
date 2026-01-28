@@ -1,5 +1,5 @@
 {% set name = "machinevision-toolbox-python" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.2" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-    sha256: 5282aee3b00009dce71085ec99055e5b4d048431243a6bf1e11074d17578158f
+    sha256: 926b972e49482e6eb9292631fd7f922ecc8f9b6504928ee40ad029fe0e1c8aa4
 
 build:
   noarch: python
@@ -20,9 +20,10 @@ requirements:
     - python {{ python_min }}
     - pip
     - setuptools
+    - hatchling
   run:
     - python >={{ python_min }}
-    - numpy <2
+    - numpy
     - scipy
     - matplotlib-base
     - py-opencv
