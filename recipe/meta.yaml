@@ -1,5 +1,5 @@
 {% set name = "machinevision-toolbox-python" %}
-{% set version = "1.0.2" %}
+{% set version = "1.0.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-    sha256: 926b972e49482e6eb9292631fd7f922ecc8f9b6504928ee40ad029fe0e1c8aa4
+    sha256: 66e96b04d4a8e4206160c9930d5e525bf1c8a446d631cecf91bd3a5052151684
 
 build:
   noarch: python
