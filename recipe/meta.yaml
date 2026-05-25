@@ -33,6 +33,15 @@ requirements:
     - mvtb-data
     - arm_pyart
     - open3d
+    - tqdm
+    - ipywidgets
+    - ipympl
+    - open3d
+    - rosbags
+    - roslibpy
+    - websockets
+    - tqdm
+    - pillow
 
 test:
   requires:
