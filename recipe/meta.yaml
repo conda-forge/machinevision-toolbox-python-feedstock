@@ -1,5 +1,5 @@
 {% set name = "machinevision-toolbox-python" %}
-{% set version = "1.0.3" %}
+{% set version = "2.0.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-    sha256: 66e96b04d4a8e4206160c9930d5e525bf1c8a446d631cecf91bd3a5052151684
+    sha256: e78076f117a5fc62a391cbd8788d707f66da0a60109ee1e60cc426bcbd43c93d
 
 build:
   noarch: python
@@ -33,6 +33,15 @@ requirements:
     - mvtb-data
     - arm_pyart
     - open3d
+    - tqdm
+    - ipywidgets
+    - ipympl
+    - open3d
+    - rosbags
+    - roslibpy
+    - websockets
+    - tqdm
+    - pillow
 
 test:
   requires:
